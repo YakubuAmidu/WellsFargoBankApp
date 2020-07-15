@@ -1,0 +1,9 @@
+.idea
+.sass-cache
+**/node_modules/**
+!**/node_modules/@grid
+/bower_components/**/node_modules
+build
+tmp
+test-assets
+/coverage
