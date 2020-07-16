@@ -13,8 +13,19 @@ export default class TopScreen extends Component {
          <Text style={styles.textStyle4}>habits? lets us help</Text>
          <View style={styles.viewStyle2}>
          <FontAwesome5 name="money-check-alt" size={24} color="lightblue" />
-         <Text>Manage a dept or fund a purchase</Text>
+         <Text style={styles.textStyle5}>Manage a dept or fund a purchase</Text>
          </View>
+
+         <View style={styles.viewStyle3}>
+       <Text style={styles.textStyle6}>EVERYDAY CHECKING</Text>
+       <Text>...1351</Text>
+         </View>
+
+         <View>
+
+         </View>
+         <Text>$4,105.86</Text>
+           <Text>...</Text>
         </View>
       </View>
     );
@@ -52,7 +63,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    paddingTop: 20,
     paddingLeft: 10,
-    paddingRight: 10
+    paddingRight: 10,
+    paddingBottom: 20
+  },
+  textStyle5: {
+    color: '#333'
+  },
+  viewStyle3: {
+    paddingBottom: 20,
+    color: '#333'
   }
 })
