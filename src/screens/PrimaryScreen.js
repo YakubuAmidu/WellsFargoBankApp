@@ -26,6 +26,11 @@ export default class PrimaryScreen extends Component {
      </View>
      </View>
 
+     <View style={styles.viewStyle6}>
+     <Text style={styles.textStyle6}>View spending report</Text>
+     <Text style={styles.textStyle7}>></Text>
+     </View>
+
      </View>
     );
   };
@@ -65,7 +70,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     color: '#ddd',
-    paddingBottom: 17
+    paddingBottom: 17,
   },
   textStyle3: {
     color: 'green'
@@ -76,9 +81,31 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   },
   textStyle4: {
-    fontSize: 20
+    fontSize: 20,
+    color: '#333'
   },
   textStyle5: {
+    fontSize: 25,
+    color: '#333'
+  },
+  viewStyle6: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: '#ddd',
+    paddingLeft: 10,
+    paddingRight: 10,
+    paddingTop: 5,
+    paddingBottom: 5,
+    marginTop: 2
+  },
+  textStyle6: {
+    fontSize: 20,
+    paddingBottom: 10,
+    color: '#333'
+  },
+  textStyle7: {
     fontSize: 25,
     color: '#333'
   }
