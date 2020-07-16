@@ -18,14 +18,17 @@ export default class TopScreen extends Component {
 
          <View style={styles.viewStyle3}>
        <Text style={styles.textStyle6}>EVERYDAY CHECKING</Text>
-       <Text>...1351</Text>
+       <Text style={styles.textStyle7}>...1351</Text>
          </View>
 
-         <View>
+        <View style={styles.viewStyle4}>
+        <Text style={styles.textStyle8}>.</Text>
+        <Text style={styles.textStyle8}>.</Text>
+        <Text style={styles.textStyle8}>.</Text>
+         <Text style={styles.textStyle9}>$4,105.86</Text>
+         <Text style={styles.textStyle10}>Available balance</Text>
+        </View>
 
-         </View>
-         <Text>$4,105.86</Text>
-           <Text>...</Text>
         </View>
       </View>
     );
@@ -73,6 +76,33 @@ const styles = StyleSheet.create({
   },
   viewStyle3: {
     paddingBottom: 20,
+    color: '#333'
+  },
+  textStyle6: {
+    color: 'red'
+  },
+  textStyle7: {
+    fontSize: 10,
+    color: '#333'
+  },
+  viewStyle4: {
+    flex: 1,
+    flexDirection: 'column',
+    paddingBottom: 30
+  },
+  textStyle8: {
+    textAlign: 'right',
+    color: '#333',
+    fontWeight: 'bold',
+   paddingBottom: 10
+  },
+  textStyle9: {
+    fontWeight: 'bold',
+    textAlign: 'right',
+  },
+  textStyle10: {
+    textAlign: 'right',
+    fontSize: 8,
     color: '#333'
   }
 })
