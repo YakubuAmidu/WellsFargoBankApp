@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { AntDesign } from '@expo/vector-icons';
 import { EvilIcons } from '@expo/vector-icons';
 
 export default class HomeScreen extends Component {
   render () {
     return (
+      <View>
       <View style={styles.ViewStyle}>
-      <AntDesign name="user" size={30} color="white"/>
-       <Text style={styles.textStyle}>Hello world</Text>
-        <EvilIcons name="navicon" size={30} color="white" />
+      <EvilIcons name="user" size={35} color="white"/>
+       <Text style={styles.textStyle}>WELLS FARGO</Text>
+        <EvilIcons name="navicon" size={35} color="white" />
+      </View>
+
+     <View style={styles.viewStyle1}>
+      <Text style={styles.textStyle1}>Account Summary</Text>
+     </View>
+
       </View>
     );
   };
@@ -20,8 +26,8 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingTop: 5,
-    paddingBottom: 5,
+    paddingTop: 2,
+    paddingBottom: 2,
     paddingLeft: 10,
     paddingRight: 10,
     justifyContent: 'space-between',
@@ -34,5 +40,17 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#fff',
     textTransform: 'uppercase'
+  },
+  viewStyle1: {
+    flex: 1,
+    alignItems: 'center',
+    backgroundColor: '#ddd',
+    paddingTop: 12,
+    paddingBottom: 12,
+  },
+  textStyle1: {
+    fontSize: 18,
+    // fontWeight: 'bold',
+    color: '#333'
   }
 })
