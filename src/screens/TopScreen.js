@@ -124,7 +124,8 @@ const styles = StyleSheet.create({
   viewStyle5: {
   paddingTop: 20,
    paddingLeft: 10,
-   paddingRight: 10
+   paddingRight: 10,
+   paddingBottom: 10
 },
 textStyle11: {
   color: '#333',
@@ -140,7 +141,11 @@ textStyle13: {
 },
 textStyle14: {
   textAlign: 'right',
-  fontWeight: 'bold',
-
+  fontWeight: 'bold'
+},
+textStyle15: {
+  textAlign: 'right',
+  fontSize: 8,
+  color: '#333'
 }
 })
