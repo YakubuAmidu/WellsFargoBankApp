@@ -28,7 +28,6 @@ export default class TopScreen extends Component {
          <Text style={styles.textStyle9}>$4,105.86</Text>
          <Text style={styles.textStyle10}>Available balance</Text>
         </View>
-        </View>
 
 
         <View style={styles.viewStyle5}>
@@ -42,6 +41,7 @@ export default class TopScreen extends Component {
        <Text style={styles.textStyle13}>.</Text>
         <Text style={styles.textStyle14}>$63.11</Text>
         <Text style={styles.textStyle15}>Available balance</Text>
+       </View>
        </View>
 
       </View>
@@ -109,8 +109,10 @@ const styles = StyleSheet.create({
   textStyle8: {
     textAlign: 'right',
     color: '#333',
+    fontSize: 20,
+    color: '#333',
     fontWeight: 'bold',
-   paddingBottom: 10
+    marginTop: -15
   },
   textStyle9: {
     fontWeight: 'bold',
@@ -125,7 +127,7 @@ const styles = StyleSheet.create({
   paddingTop: 20,
    paddingLeft: 10,
    paddingRight: 10,
-   paddingBottom: 10
+   paddingBottom: 20
 },
 textStyle11: {
   color: '#333',
@@ -137,7 +139,9 @@ textStyle12: {
 },
 textStyle13: {
   textAlign: 'right',
-  fontSize: 20
+  fontSize: 30,
+  color: '#333',
+  marginTop: -30
 },
 textStyle14: {
   textAlign: 'right',
