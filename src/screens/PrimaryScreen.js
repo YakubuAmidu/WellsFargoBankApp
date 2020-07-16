@@ -21,8 +21,8 @@ export default class PrimaryScreen extends Component {
      </View>
 
      <View style={styles.viewStyle5}>
-     <Text>View Budget</Text>
-     <Text>></Text>
+     <Text style={styles.textStyle4}>View Budget</Text>
+     <Text style={styles.textStyle5}>></Text>
      </View>
      </View>
 
@@ -73,5 +73,8 @@ const styles = StyleSheet.create({
   viewStyle5: {
     flex: 1,
     flexDirection: 'row'
+  },
+  textStyle4: {
+    marginRight: 300
   }
 })
