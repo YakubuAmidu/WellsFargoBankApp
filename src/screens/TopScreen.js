@@ -30,20 +30,19 @@ export default class TopScreen extends Component {
         </View>
         </View>
 
-        <View style={styles.viewStyle3}>
-      <Text style={styles.textStyle6}>EVERYDAY CHECKING</Text>
-      <Text style={styles.textStyle7}>...1351</Text>
+
+        <View style={styles.viewStyle5}>
+      <Text style={styles.textStyle11}>CREDIT CARD</Text>
+      <Text style={styles.textStyle12}>...2456</Text>
         </View>
 
-       <View style={styles.viewStyle4}>
-       <Text style={styles.textStyle8}>.</Text>
-       <Text style={styles.textStyle8}>.</Text>
-       <Text style={styles.textStyle8}>.</Text>
-        <Text style={styles.textStyle9}>$4,105.86</Text>
-        <Text style={styles.textStyle10}>Available balance</Text>
+       <View style={styles.viewStyle5}>
+       <Text style={styles.textStyle13}>.</Text>
+       <Text style={styles.textStyle13}>.</Text>
+       <Text style={styles.textStyle13}>.</Text>
+        <Text style={styles.textStyle14}>$63.11</Text>
+        <Text style={styles.textStyle15}>Available balance</Text>
        </View>
-
-
 
       </View>
     );
@@ -103,7 +102,9 @@ const styles = StyleSheet.create({
   viewStyle4: {
     flex: 1,
     flexDirection: 'column',
-    paddingBottom: 30
+    paddingBottom: 30,
+    borderBottomWidth: 2,
+    borderColor: '#fff'
   },
   textStyle8: {
     textAlign: 'right',
@@ -119,5 +120,27 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     fontSize: 8,
     color: '#333'
-  }
+  },
+  viewStyle5: {
+  paddingTop: 20,
+   paddingLeft: 10,
+   paddingRight: 10
+},
+textStyle11: {
+  color: '#333',
+  color: 'red'
+},
+textStyle12: {
+  fontSize: 10,
+  color: '#333'
+},
+textStyle13: {
+  textAlign: 'right',
+  fontSize: 20
+},
+textStyle14: {
+  textAlign: 'right',
+  fontWeight: 'bold',
+
+}
 })
