@@ -72,9 +72,14 @@ const styles = StyleSheet.create({
   },
   viewStyle5: {
     flex: 1,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   },
   textStyle4: {
-    marginRight: 300
+    fontSize: 20
+  },
+  textStyle5: {
+    fontSize: 25,
+    color: '#333'
   }
 })
