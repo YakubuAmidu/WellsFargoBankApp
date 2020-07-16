@@ -11,16 +11,16 @@ export default class PrimaryScreen extends Component {
 
     <View style={styles.viewStyle2}>
      <View style={styles.viewStyle3}>
-     <Text>November 2019</Text>
-     <Text>$300</Text>
+     <Text style={styles.textStyle2}>November 2019</Text>
+     <Text style={styles.textStyle2}>$300</Text>
      </View>
 
-     <View>
+     <View style={styles.viewStyle4}>
      <Text>Note: Shopping budget for November</Text>
-     <Text>EDIT</Text>
+     <Text style={styles.textStyle3}>EDIT</Text>
      </View>
 
-     <View>
+     <View >
      <Text>View Budget</Text>
      <Text>></Text>
      </View>
@@ -53,6 +53,21 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    paddingBottom: 17
+  },
+  textStyle2: {
+    fontWeight: 'bold'
+  },
+  viewStyle4: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    color: '#ddd',
+    paddingBottom: 17
+  },
+  textStyle3: {
+    color: 'green'
   }
 })
