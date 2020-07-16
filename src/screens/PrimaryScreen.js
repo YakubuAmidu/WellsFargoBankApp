@@ -42,13 +42,13 @@ const styles = StyleSheet.create({
   paddingTop: 10,
   paddingBottom: 10,
   marginBottom: 2,
-  backgroundColor: '#D3D3D3'
+  backgroundColor: '#F0F0F0'
 },
   textStyle1: {
     fontSize: 20,
   },
   viewStyle2: {
-    backgroundColor: '#D3D3D3',
+    backgroundColor: '#F0F0F0',
     paddingTop: 15,
     paddingBottom: 15,
     paddingLeft: 10,
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    backgroundColor: '#D3D3D3',
+    backgroundColor: '#F0F0F0',
     paddingLeft: 10,
     paddingRight: 10,
     paddingTop: 5,
