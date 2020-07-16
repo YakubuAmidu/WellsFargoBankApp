@@ -20,7 +20,7 @@ export default class PrimaryScreen extends Component {
      <Text style={styles.textStyle3}>EDIT</Text>
      </View>
 
-     <View >
+     <View style={styles.viewStyle5}>
      <Text>View Budget</Text>
      <Text>></Text>
      </View>
@@ -69,5 +69,9 @@ const styles = StyleSheet.create({
   },
   textStyle3: {
     color: 'green'
+  },
+  viewStyle5: {
+    flex: 1,
+    flexDirection: 'row'
   }
 })
