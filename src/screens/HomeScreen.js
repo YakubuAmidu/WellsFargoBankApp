@@ -6,15 +6,15 @@ export default class HomeScreen extends Component {
   render () {
     return (
       <View>
-      <View style={styles.ViewStyle}>
-      <EvilIcons name="user" size={35} color="white"/>
-       <Text style={styles.textStyle}>WELLS FARGO</Text>
-        <EvilIcons name="navicon" size={35} color="white" />
+      <View style={styles.viewStyle1}>
+      <EvilIcons name="user" size={35} color="#fff"/>
+      <Text style={styles.textStyle1}>Wells Fargo</Text>
+      <EvilIcons name="navicon" size={35} color="#fff"/>
       </View>
 
-     <View style={styles.viewStyle1}>
-      <Text style={styles.textStyle1}>Account Summary</Text>
-     </View>
+      <View>
+     <Text>Account Summary</Text>
+      </View>
 
       </View>
     );
@@ -22,35 +22,21 @@ export default class HomeScreen extends Component {
 }
 
 const styles = StyleSheet.create({
-  ViewStyle: {
+  viewStyle1: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingTop: 2,
-    paddingBottom: 2,
-    paddingLeft: 10,
-    paddingRight: 10,
     justifyContent: 'space-between',
-    backgroundColor: 'red',
     borderBottomWidth: 4,
-    borderColor: 'gold'
-  },
-  textStyle: {
-    fontSize: 25,
-    fontWeight: 'bold',
-    color: '#fff',
-    textTransform: 'uppercase'
-  },
-  viewStyle1: {
-    flex: 1,
-    alignItems: 'center',
-    backgroundColor: '#ddd',
-    paddingTop: 12,
-    paddingBottom: 12,
+    borderColor: 'gold',
+    backgroundColor: 'red',
+    paddingLeft: 10,
+    paddingRight: 10
   },
   textStyle1: {
-    fontSize: 18,
-    // fontWeight: 'bold',
-    color: '#333'
+ fontSize: 30,
+ fontWeight: 'bold',
+ textTransform: 'uppercase',
+ color: '#fff'
   }
 })
