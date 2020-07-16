@@ -5,7 +5,7 @@ export default class TopScreen extends Component {
   render () {
     return (
       <View>
-       <Text>Hi</Text>
+      
       </View>
     );
   };
