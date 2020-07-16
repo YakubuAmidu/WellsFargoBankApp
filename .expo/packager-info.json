@@ -1,9 +1,9 @@
 {
-  "devToolsPort": 19003,
-  "expoServerPort": 19004,
-  "packagerPort": 19005,
-  "packagerPid": 4880,
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 6673,
   "expoServerNgrokUrl": "https://9n-p5e.yakubu1.wellsfargobankapp.exp.direct",
   "packagerNgrokUrl": "https://packager.9n-p5e.yakubu1.wellsfargobankapp.exp.direct",
-  "ngrokPid": 4898
+  "ngrokPid": 6356
 }

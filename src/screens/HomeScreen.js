@@ -20,16 +20,17 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
+    paddingTop: 5,
+    paddingBottom: 5,
     paddingLeft: 10,
     paddingRight: 10,
-    fontFamily: 'Lato',
     justifyContent: 'space-between',
     backgroundColor: 'red',
     borderBottomWidth: 4,
     borderColor: 'gold'
   },
   textStyle: {
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: 'bold',
     color: '#fff',
     textTransform: 'uppercase'
