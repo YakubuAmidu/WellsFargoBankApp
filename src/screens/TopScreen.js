@@ -28,8 +28,23 @@ export default class TopScreen extends Component {
          <Text style={styles.textStyle9}>$4,105.86</Text>
          <Text style={styles.textStyle10}>Available balance</Text>
         </View>
-
         </View>
+
+        <View style={styles.viewStyle3}>
+      <Text style={styles.textStyle6}>EVERYDAY CHECKING</Text>
+      <Text style={styles.textStyle7}>...1351</Text>
+        </View>
+
+       <View style={styles.viewStyle4}>
+       <Text style={styles.textStyle8}>.</Text>
+       <Text style={styles.textStyle8}>.</Text>
+       <Text style={styles.textStyle8}>.</Text>
+        <Text style={styles.textStyle9}>$4,105.86</Text>
+        <Text style={styles.textStyle10}>Available balance</Text>
+       </View>
+
+
+
       </View>
     );
   };
@@ -75,7 +90,7 @@ const styles = StyleSheet.create({
     color: '#333'
   },
   viewStyle3: {
-    paddingBottom: 20,
+    paddingBottom: 10,
     color: '#333'
   },
   textStyle6: {
